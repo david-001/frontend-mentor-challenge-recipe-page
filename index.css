@@ -1,0 +1,206 @@
+@font-face {
+  font-family: 'Young Serif';
+  src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Outfit Regular';
+  src: url('assets/fonts/outfit/static/Outfit-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Outfit SemiBold';
+  src: url('assets/fonts/outfit/static/Outfit-SemiBold.ttf');
+}
+
+body{
+  background-color: #F3E5D7;
+  display: flex;
+  justify-content: center; /* horizontally center */
+  padding: 123px 0;
+  margin: 0;
+}
+
+.card {
+  background-color: white;
+  width: 656px;
+  border-radius: 24px;
+  padding: 40px;
+}
+
+.top-image{
+  display: block; 
+  width: 656px;
+  height: 300px;
+  border-radius: 12px;
+}
+
+
+.text-content{
+  display: block; 
+  padding-top: 40px;
+  width: 656px;
+}
+
+.text-content-font{
+  font-family: 'Outfit Regular';
+  display: block; 
+  font-size: 16px;
+  color: #5F564D;
+  line-height: 1.6;
+}
+
+.text-content-red-bold{
+  font-family: 'Outfit Regular';
+  font-size: 16px;
+  font-weight:bold;
+  color: #854632;
+}
+
+.title-header{
+  color:#312E2C;
+  font-family: 'Young Serif', serif;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.title-space{
+  padding-top: 24px;
+}
+
+
+.preparation{
+  margin-top: 32px;
+  background-color: #FFF7FB;
+  padding: 28px 28px 20px 28px;
+  border-radius: 12px;
+}
+
+.preparation-header{
+  color: #7A284E;
+  font-size: 20px;
+  font-family: 'Outfit SemiBold';
+  margin-bottom: 16px;
+}
+
+.preparation-li{
+  color: #7A284E;
+  position: relative;
+  left: -20px;
+  padding-bottom: 8px;
+}
+
+.preparation-li-text{
+  margin-left: 24px;
+}
+
+.ingredients{
+  margin-top: 32px;
+}
+
+.sub-title{
+  color: #854632;
+  font-size: 28px;
+  font-family: 'Young Serif';
+  margin-bottom: 24px;
+}
+
+.ingredients-li{
+  color: #854632;
+  position: relative;
+  left: -20px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  font-weight:bold;
+}
+
+.ingredients-li-text{
+  font-weight: normal;
+}
+
+.hr-line{
+  margin: 24px 0px 32px 0px;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #E3DDD7;
+}
+
+.instructions{
+  margin: 32px 28px 28px 0;
+}
+
+.instructions-li{
+  color: #854632;
+  position: relative;
+  left: -15px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  font-weight:bold;
+  
+}
+
+.instructions-li-text{
+  font-weight: normal;
+}
+
+.nutrient-row{
+  margin: 0 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nutrient-col{
+  width: 288px;
+}
+
+.nutrient-space{
+  margin-bottom: 24px;
+}
+
+.nutrient-rule{
+  margin: 12px 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #E3DDD7;
+}
+
+@media (max-width: 735px) {
+
+  body{
+    margin: 0;
+    padding: 0;
+  }
+
+  .card{
+    width: 311px;
+    padding: 0 32px 40px 32px;
+    border-radius: 0px;
+  }
+
+  .top-image{
+    margin: 0 -32px;
+    width: 375px;
+    height: 171px;
+    border-radius: 0px;
+  }
+
+  .text-content{
+    width: 311px;
+  }
+
+  .text-content-font{
+    font-size: 16px;
+  }
+
+
+  .title-header{
+    font-size: 36px;
+  }
+
+  .preparation{
+    padding: 24px 24px 16px 24px;
+  }
+
+}
