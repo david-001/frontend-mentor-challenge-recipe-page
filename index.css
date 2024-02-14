@@ -59,11 +59,12 @@ body{
 
 .title-header{
   color:#312E2C;
-  font-family: 'Young Serif', serif;
+  font-family: 'Young Serif';
   font-size: 40px;
   font-weight: normal;
   margin: 0;
   padding: 0;
+  line-height: 1.1;
 }
 
 .title-space{
@@ -85,6 +86,7 @@ body{
   /* margin-bottom: 16px; */
   margin: 0 0 16px 0;
   padding: 0;
+  line-height: 1.1;
 }
 
 .preparation-li{
@@ -109,6 +111,7 @@ body{
   margin-bottom: 24px;
   margin: 0 0 24px 0;
   padding: 0;
+  line-height: 1.1;
 }
 
 .ingredients-li{
