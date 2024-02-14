@@ -45,7 +45,7 @@ body{
 .text-content-font{
   font-family: 'Outfit Regular';
   display: block; 
-  font-size: 15px;
+  font-size: 16px;
   color: #5F564D;
   line-height: 1.6;
 }
@@ -125,6 +125,7 @@ body{
 
 .ingredients-li-text{
   font-weight: normal;
+
 }
 
 .hr-line{
@@ -151,6 +152,7 @@ body{
 
 .instructions-li-text{
   font-weight: normal;
+  font-size: 15px;
 }
 
 .nutrient-row{
