@@ -90,6 +90,10 @@ body{
   line-height: 1.1;
 }
 
+.preparation-ul{
+  margin: 16px 0 0 0;
+}
+
 .preparation-li{
   color: #7A284E;
   position: relative;
@@ -103,6 +107,10 @@ body{
 
 .ingredients{
   margin-top: 32px;
+}
+
+.ingredients-ul{
+  margin: 0;
 }
 
 .sub-title{
@@ -140,6 +148,10 @@ body{
 
 .instructions{
   margin: 32px 28px 28px 0;
+}
+
+.instructions-ol{
+  margin: 0;
 }
 
 .instructions-li{
