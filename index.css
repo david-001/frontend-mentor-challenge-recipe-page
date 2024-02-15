@@ -83,6 +83,7 @@ body{
   color: #7A284E;
   font-size: 20px;
   font-family: 'Outfit SemiBold';
+  font-weight: normal;
   /* margin-bottom: 16px; */
   margin: 0 0 16px 0;
   padding: 0;
@@ -108,6 +109,7 @@ body{
   color: #854632;
   font-size: 28px;
   font-family: 'Young Serif';
+  font-weight: normal;
   margin-bottom: 24px;
   margin: 0 0 24px 0;
   padding: 0;
